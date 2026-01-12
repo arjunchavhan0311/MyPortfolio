@@ -20,11 +20,11 @@ const EducationPage = () => {
         
       ],
       skills: [
-         { name: "Java Programming", cert: "public/Java Programming.jpeg" },
-         { name: "DSA Using Java", cert: "public/DSA Using Java.jpeg" },
-         { name: "DBMS", cert: "public/DBMS1.jpeg" },
-         { name: "NoSQL DB", cert: "public/NoSQLDB.jpeg" },
-         { name: "Hackathon", cert: "public/HackathonBNCOE.jpeg" },
+         { name: "Java Programming", cert: "/Java Programming.jpeg" },
+         { name: "DSA Using Java", cert: "/DSA Using Java.jpeg" },
+         { name: "DBMS", cert: "/DBMS1.jpeg" },
+         { name: "NoSQL DB", cert: "/NoSQLDB.jpeg" },
+         { name: "Hackathon", cert: "/HackathonBNCOE.jpeg" },
         
       ],
       internship: {
@@ -47,11 +47,11 @@ const EducationPage = () => {
         "Led a team of 4 in a project to develop a local restaurant web application.", 
       ],
       skills: [
-        { name: "Core Java", cert: "public/Java Foundation.jpeg" },
-        { name: "Python", cert: "public/Python.jpeg" },
-        { name: "SQL", cert: "public/DBMS2.jpeg" },
-        { name: "Web Development", cert: "public/DiplomaInternship.jpeg" },
-        {name: "PHP Developer", cert: "public/PHP.jpeg" }
+        { name: "Core Java", cert: "/Java Foundation.jpeg" },
+        { name: "Python", cert: "/Python.jpeg" },
+        { name: "SQL", cert: "/DBMS2.jpeg" },
+        { name: "Web Development", cert: "/DiplomaInternship.jpeg" },
+        {name: "PHP Developer", cert: "/PHP.jpeg" }
       ],
       internship: {
         role: "Frontend UI Developer Intern",
