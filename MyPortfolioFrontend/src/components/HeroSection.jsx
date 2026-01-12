@@ -23,7 +23,7 @@ const HeroSection = () => {
       <motion.div 
         animate={{ x: [0, 30, 0], y: [0, 50, 0] }}
         transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-        className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-purple-200/30 blur-[120px] z-0" 
+        className="absolute top-[-10%] left-[-10%] w-[500px] h-[300px] rounded-full bg-purple-200/30 blur-[120px] z-0" 
       />
       <motion.div 
         animate={{ x: [0, -40, 0], y: [0, -60, 0] }}
