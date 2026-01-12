@@ -29,7 +29,7 @@ const Navbar = () => {
           
           {/* LOGO */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full  flex items-center justify-center text-white font-bold">
+            <div className="w-30 h-30 rounded-full  flex items-center justify-center text-white font-bold">
               <img src="/mynamelogo1.png" alt="My Portfolio Logo"/>
             </div>
             <span className="text-xl font-semibold text-gray-900">
