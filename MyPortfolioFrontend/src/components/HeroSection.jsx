@@ -31,7 +31,7 @@ const HeroSection = () => {
         className="absolute bottom-[10%] right-[0%] w-[600px] h-[600px] rounded-full bg-teal-100/40 blur-[130px] z-0" 
       />
 
-      <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-3">
+     <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-0">
         
         {/* LEFT CONTENT */}
         <motion.div 
