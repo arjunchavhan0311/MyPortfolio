@@ -20,7 +20,7 @@ const projects = [
   {
     title: "My Portfolio Website",
     category: "React | Tailwind | Spring Boot",
-    img: "public/HomePortfolio.png",
+    img: "/HomePortfolio.png",
     liveLink: "https://your-demo-link.com",
     githubLink: "https://github.com/your-repo",
   },
