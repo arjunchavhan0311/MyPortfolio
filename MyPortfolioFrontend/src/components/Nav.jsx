@@ -25,7 +25,7 @@ const Navbar = () => {
       <style dangerouslySetInnerHTML={{ __html: `html { scroll-behavior: smooth; }` }} />
 
       <header className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
-        <nav className="max-w-[1400px] mx-auto px-6 py-5 flex items-center justify-between">
+        <nav className="max-w-[1200px] mx-auto px-6 py-5 flex items-center justify-between">
           
           {/* LOGO */}
           <div className="flex items-center gap-3">
