@@ -106,7 +106,7 @@ const HeroSection = () => {
               className="relative overflow-hidden rounded-[40px] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.25)] border-[12px] border-white"
             >
               <img
-                src="public/arjun.jpeg"
+                src="/arjun.jpeg"
                 alt="Arjun Chavhan"
                 className="w-[400px] h-[550px] object-cover"
               />
