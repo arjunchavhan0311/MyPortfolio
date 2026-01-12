@@ -21,8 +21,8 @@ const projects = [
     title: "My Portfolio Website",
     category: "React | Tailwind | Spring Boot",
     img: "/HomePortfolio.png",
-    liveLink: "https://your-demo-link.com",
-    githubLink: "https://github.com/your-repo",
+    liveLink: "https://arjun-chavhan-portfolio.vercel.app/",
+    githubLink: "https://github.com/arjunchavhan0311/MyPortfolio",
   },
   {
     title: "Inventory Manager",
