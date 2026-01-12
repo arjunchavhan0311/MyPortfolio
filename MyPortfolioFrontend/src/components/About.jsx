@@ -54,7 +54,7 @@ const AboutSection = () => {
               
               <div className="relative overflow-hidden rounded-[24px] bg-slate-100">
                 <img
-                  src="public/arjunc.jpeg"
+                  src="/arjunc.jpeg"
                   alt="Arjun Chavhan"
                   className="w-full h-[450px] md:h-[550px] object-cover hover:scale-105 transition-transform duration-700"
                 />
