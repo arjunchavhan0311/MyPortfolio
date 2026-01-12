@@ -29,11 +29,12 @@ const Navbar = () => {
           
           {/* LOGO */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center text-white font-bold">
-              A
+            <div className="w-10 h-10 rounded-full  flex items-center justify-center text-white font-bold">
+              <img src="mynamelogo1.png" alt="My Portfolio Logo">
+
             </div>
             <span className="text-xl font-semibold text-gray-900">
-              Arjun
+              Arjun Chavhan
             </span>
           </div>
 
