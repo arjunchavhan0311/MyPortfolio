@@ -23,7 +23,7 @@ const HeroSection = () => {
       <motion.div 
         animate={{ x: [0, 30, 0], y: [0, 50, 0] }}
         transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-        className="absolute top-[-10%] left-[-10%] w-[500px] h-[300px] rounded-full bg-purple-200/30 blur-[120px] z-0" 
+        className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-purple-200/30 blur-[120px] z-0" 
       />
       <motion.div 
         animate={{ x: [0, -40, 0], y: [0, -60, 0] }}
@@ -31,7 +31,7 @@ const HeroSection = () => {
         className="absolute bottom-[10%] right-[0%] w-[600px] h-[600px] rounded-full bg-teal-100/40 blur-[130px] z-0" 
       />
 
-      <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-20">
+      <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-15">
         
         {/* LEFT CONTENT */}
         <motion.div 
