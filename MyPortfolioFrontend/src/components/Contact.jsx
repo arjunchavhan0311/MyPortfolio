@@ -346,7 +346,7 @@ const ContactSection = () => {
   <div className="flex-1 flex border rounded-2xl bg-purple-500">
 
     <motion.a
-      href="mailto:byalerohan@gmail.com"
+      href="mailto:arjunchavhan8459@gmail.com"
       whileHover={{
         scale: 1.05,
         y: -4,
