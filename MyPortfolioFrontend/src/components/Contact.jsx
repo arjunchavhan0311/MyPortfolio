@@ -323,20 +323,62 @@ const ContactSection = () => {
                 </label>
               </div>
 
-              <div className="md:col-span-2">
-                <motion.button
-                  type="submit"
-                  disabled={loading}
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="w-full bg-slate-900 text-white rounded-[24px] py-6 flex items-center justify-between px-10 group transition-all hover:bg-purple-600 shadow-2xl shadow-purple-100"
-                >
-                  <span className="text-xs font-black uppercase tracking-[0.4em]">
-                    Submit
-                  </span>
-                  <ArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                </motion.button>
-              </div>
+                   <div className="md:col-span-2 flex gap-10 items-stretch">
+
+  {/* Submit Button */}
+  <motion.button
+    type="submit"
+    disabled={loading}
+    whileHover={{ scale: 1.02 }}
+    whileTap={{ scale: 0.98 }}
+    className="flex-1 bg-slate-900 text-white rounded-[24px] py-6
+               flex items-center justify-between px-10 group
+               transition-all hover:bg-purple-600
+               shadow-2xl shadow-purple-100"
+  >
+    <span className="text-xs font-black uppercase tracking-[0.4em]">
+      Submit
+    </span>
+    <ArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+  </motion.button>
+
+  {/* Direct Mail Button Wrapper */}
+  <div className="flex-1 flex border rounded-2xl bg-purple-500">
+
+    <motion.a
+      href="mailto:byalerohan@gmail.com"
+      whileHover={{
+        scale: 1.05,
+        y: -4,
+        boxShadow: "0px 15px 40px rgba(168, 85, 247, 0.5)",
+      }}
+      whileTap={{ scale: 0.97 }}
+      transition={{ type: "spring", stiffness: 200, damping: 12 }}
+      className="group flex items-center justify-between px-10 py-6
+                 bg-white/[0.03] border border-white/10
+                 rounded-2xl hover:border-purple-400
+                 transition-all w-full"
+    >
+      <motion.span
+        initial={{ letterSpacing: "0.15em" }}
+        whileHover={{ letterSpacing: "0.25em" }}
+        transition={{ duration: 0.3 }}
+        className="text-xs font-bold text-black uppercase tracking-widest"
+      >
+        Direct Mail
+      </motion.span>
+
+      <motion.span
+        whileHover={{ x: 6, y: -6, rotate: 45 }}
+        transition={{ type: "spring", stiffness: 300 }}
+        className="text-neutral-700 group-hover:text-purple-500 text-lg"
+      >
+        →
+      </motion.span>
+    </motion.a>
+
+  </div>
+</div>
             </form>
           </div>
         </motion.div>
