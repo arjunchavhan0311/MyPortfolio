@@ -122,8 +122,8 @@ const AboutSection = () => {
               </a>
 
            <a 
-  href="/arjunresume.pdf" // This path points directly to your public folder
-  download="Arjun_Chavhan_Resume.pdf" 
+  href="/ARJUN_CHAVA_Resume.pdf" // This path points directly to your public folder
+  download="ARJUN_CHAVAN_Resume.pdf" 
   className="flex items-center justify-center border-2 border-slate-200 text-slate-900 px-8 py-4 rounded-full font-bold hover:border-purple-600 hover:text-purple-600 transition-all cursor-pointer"
 >
   Download CV
