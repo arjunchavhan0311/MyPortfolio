@@ -4,11 +4,11 @@ import { ExternalLink, Github, Code2, Monitor } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Microservices",
+    title: "Civic Pulse Hub",
     category: "Java | Spring Boot",
-    img: "https://images.unsplash.com/photo-1526318472351-c75fcf070305",
-    liveLink: "https://your-demo-link.com",
-    githubLink: "https://github.com/your-repo",
+    img: ""
+    liveLink: "https://civic-pulse-hub.vercel.app/",
+    githubLink: "https://github.com/arjunchavhan0311/CivicPulseHub",
   },
   {
     title: "Banking Security System",
