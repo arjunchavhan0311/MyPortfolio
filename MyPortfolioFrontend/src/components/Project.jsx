@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Civic Pulse Hub",
     category: "React.js | Spring Boot",
-    img: "/CivicPulseHub.png"
+    img: "/CivicPulseHub.png",
     liveLink: "https://civic-pulse-hub.vercel.app/",
     githubLink: "https://github.com/arjunchavhan0311/CivicPulseHub",
   },
