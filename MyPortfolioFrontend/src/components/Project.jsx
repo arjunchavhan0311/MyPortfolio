@@ -13,7 +13,7 @@ const projects = [
   {
     title: "FixOnGo Worker Hiring Platform",
     category: "Spring Boot| React.Js | JWT",
-    img: "/FixOnGo.png",
+    img: "/FixOnGO.png",
     liveLink: "https://fix-on-go-frontend.vercel.app/",
     githubLink: "https://github.com/arjunchavhan0311/FixOnGoFrontend",
   },
