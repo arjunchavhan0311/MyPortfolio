@@ -11,11 +11,11 @@ const projects = [
     githubLink: "https://github.com/arjunchavhan0311/CivicPulseHub",
   },
   {
-    title: "Banking Security System",
-    category: "Spring Security | JWT",
-    img: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
-    liveLink: "https://your-demo-link.com",
-    githubLink: "https://github.com/your-repo",
+    title: "FixOnGo Worker Hiring Platform",
+    category: "Spring Boot| React.Js | JWT",
+    img: "/FixOnGo.png",
+    liveLink: "https://fix-on-go-frontend.vercel.app/",
+    githubLink: "https://github.com/arjunchavhan0311/FixOnGoFrontend",
   },
   {
     title: "My Portfolio Website",
