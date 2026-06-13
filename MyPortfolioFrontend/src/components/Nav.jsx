@@ -83,7 +83,7 @@ const Navbar = () => {
         />
 
         {/* TEXT CONTENT */}
-        <span className="relative z-10">Hire Me</span>
+        <span className="relative z-10">Contact Me</span>
 
         {/* ANIMATED ARROW */}
         <motion.span
@@ -123,7 +123,7 @@ const Navbar = () => {
                 onClick={handleNavClick}
                 className="mt-4 bg-purple-600 text-white py-2 rounded-lg text-center"
               >
-                Hire Me
+                Contact Me
               </a>
             </ul>
           </div>
