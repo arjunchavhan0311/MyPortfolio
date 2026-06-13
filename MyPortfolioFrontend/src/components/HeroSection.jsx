@@ -79,8 +79,8 @@ const HeroSection = () => {
           <motion.div variants={itemVars} className="mt-20 grid grid-cols-3 gap-4 max-w-xl">
             {[
               { label: "Experience", val: "1 Y." },
-              { label: "Completed", val: "2+" },
-              { label: "Clients", val: "" }
+              { label: "Completed", val: "3+" },
+              { label: "Clients", val: "2" }
             ].map((stat, i) => (
               <div key={i} className="group p-5 rounded-2xl border border-slate-200 bg-white/50 backdrop-blur-md hover:border-purple-400 hover:bg-white transition-all duration-300">
                 <h3 className="text-2xl font-black text-slate-900 group-hover:scale-110 transition-transform origin-left">{stat.val}</h3>
