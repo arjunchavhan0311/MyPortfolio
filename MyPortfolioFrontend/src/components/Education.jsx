@@ -10,7 +10,7 @@ const EducationPage = () => {
       degree: "Bachelor of Engineering in Computer Science",
       institution: "Sant Gadge Baba Amravati University",
       duration: "2023 - 2026",
-      grade: "6 CGPA",
+      grade: "6.6 CGPA",
       // Detailed description as an array for cleaner bullet points
       details: [
         "Mastered Spring Boot, Spring Security, and Microservices architecture.",
